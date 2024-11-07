@@ -10,12 +10,12 @@ function CardImg(): JSX.Element | string {
       >
         {/* Heading with Bootstrap classes for styling */}
         <h5 className="card-title text-primary fw-bold mb-2 card-header fs-1">
-          NITROGEN TANK 1 & 2
+          GANTRY CRANE
         </h5>
 
         {/* Image */}
         <img
-          src="/images/nitrogen tank.jpg"
+          src="/images/gantry crane.jpg"
           className="card-img-top mb-2 rounded"
           alt="Equipment"
         />
@@ -40,10 +40,10 @@ function CardImg(): JSX.Element | string {
           style={{ maxWidth: "18rem" }}
         >
           <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-5 text-white">
-              PVT & NDT REPORT
+            <span className="fw-bold fs-4 text-white">
+             NDT REPORT
             </span>
-            <a href="/pdfs/PVT & NDT-REPORT.pdf" download className="btn ">
+            <a href="/pdfs/NDT Report.pdf" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
@@ -58,19 +58,19 @@ function CardImg(): JSX.Element | string {
             
           </div>
           <p className="text-white fw-bold fs-5 card-header ">
-            Due Date: <span className="fw-semibold">27-08-2024</span>
+            Valid Till: <span className="fw-semibold">26-02-2025</span>
           </p>
         </div>
 
         
         {/* Additional Card with Primary Background */}
         <div
-          className="card text-bg-primary mb-3 p-3 mx-auto card-3d"
+          className="card rounded-lg text-bg-primary mb-3 p-3 mx-auto card-3d"
           style={{ maxWidth: "18rem" }}
         >
           <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-4 text-white">Monthly Checklist</span>
-            <a href="/pdfs/Monthly Checklist.pdf" download className="btn ">
+            <span className="fw-bold fs-4 text-white">Load Test Report</span>
+            <a href="/pdfs/Load Test Report.pdf" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
@@ -83,13 +83,17 @@ function CardImg(): JSX.Element | string {
               </svg>
             </a>
           </div>
+          <p className="text-white fw-bold fs-5 card-header ">
+            Valid Till: <span className="fw-semibold">27-02-2025</span>
+          </p>
         </div>
+        
         <div
           className="card rounded-lg text-bg-info mb-3 p-3 mx-auto card-3d"
           style={{ maxWidth: "18rem" }}
         >
           <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-5 text-white">Manual</span>
+            <span className="fw-bold fs-4 text-white">Inspection Checklist</span>
             <a href="/pdfs/Manual.PDF" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
