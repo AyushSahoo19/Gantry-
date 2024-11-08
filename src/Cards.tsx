@@ -58,7 +58,7 @@ function CardImg(): JSX.Element | string {
             
           </div>
           <p className="text-white fw-bold fs-5 card-header ">
-            Valid Till: <span className="fw-semibold">26-02-2025</span>
+            Valid: <span className="fw-semibold">27-08-2024</span>
           </p>
         </div>
 
@@ -94,7 +94,7 @@ function CardImg(): JSX.Element | string {
         >
           <div className="d-flex justify-content-between align-items-center">
             <span className="fw-bold fs-4 text-white">Inspection Checklist</span>
-            <a href="/pdfs/Manual.PDF" download className="btn ">
+            <a href="/pdfs/Gantry Crane Checklist.pdf" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
