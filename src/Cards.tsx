@@ -58,7 +58,7 @@ function CardImg(): JSX.Element | string {
             
           </div>
           <p className="text-white fw-bold fs-5 card-header ">
-            Valid: <span className="fw-semibold">26-02-2025</span>
+            Valid Till: <span className="fw-semibold">16-02-2026</span>
           </p>
         </div>
 
